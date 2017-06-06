@@ -1,0 +1,26 @@
+{
+  "name": "wscontroller-api",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./app.js"
+  },
+  "dependencies": {
+    "async": "^2.1.5",
+    "bcrypt": "^0.8.7",
+    "bluebird": "^3.4.6",
+    "body-parser": "~1.15.1",
+    "express": "~4.13.4",
+    "jwt-simple": "^0.5.0",
+    "lodash": "4.17.3",
+    "moment": "^2.17.1",
+    "node-uuid": "^1.4.7",
+    "passport": "^0.3.2",
+    "passport-jwt": "^2.1.0",
+    "pg": "^5.1.0",
+    "validator": "^6.1.0",
+    "winston": "^2.3.1",
+    "winston-daily-rotate-file": "^1.4.6"
+  }
+}
+
